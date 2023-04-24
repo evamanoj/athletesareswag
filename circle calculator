@@ -1,0 +1,25 @@
+//program to print the area and circumference of a circle using input from user
+
+public class circle_8
+{
+ public static void main(int r)
+ {
+     double c,a;
+     c=2*3.14*r;
+     a=3.14*r*r;
+     System.out.println("the area of the circle="+(double)a+"Square meter");
+     
+     
+     System.out.println("the circumference of the circle="+(double)c+"Square meter");
+    }
+}
+     
+     
+     
+     
+ 
+ 
+ 
+ 
+ 
+
