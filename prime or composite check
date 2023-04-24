@@ -1,0 +1,21 @@
+//to identify a number as prime or composite 
+import java.util.*;
+public class primeorcomposite
+{
+    public static void main()
+    {
+        Scanner in=new Scanner(System.in);
+        System.out.println("Enter number to check whether prime or composite");
+        int s=0;int c;int n=0;
+        c=in.nextInt();
+        for(int i=1;i<=n;i++)
+        {
+            if(n%i==0)
+            c++;
+        }
+        if(c==2)
+        System.out.println("Prime");
+        else
+        System.out.println("Composite");
+    }
+}
