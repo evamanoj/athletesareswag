@@ -1,0 +1,24 @@
+//program to verify whether the input is an armstrong number 
+//an armstrong number is a number that is equal to the sum of cubes of its digits
+import java.util.*;
+public class armstrong
+{
+    public static void main(String args[])
+    {
+        Scanner in=new Scanner(System.in);
+        int a,num,n,s=0;
+        System.out.println("Enter a number");
+        n=in.nextInt();
+        num=n;
+        while(n>0)
+        {
+            a=n%10;
+            s=s+a*a*a;
+            n=n/10;
+        }
+        if(num==s)
+        System.out.println("The number " + num+" is an armstrong number");
+        else
+        System.out.println("The number "+ num+" is not an armstrong number");
+    }
+}
